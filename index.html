@@ -96,6 +96,12 @@
         .footer a:hover {
             text-decoration: underline;
         }
+        iframe {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+        }
     </style>
 </head>
 <body>
@@ -112,6 +118,10 @@
         <button class="copy-btn" onclick="copiarTexto()">Copiar</button>
         <p id="feedback" style="display: none;"></p>
         <p><b>Link atualizado:</b> <span id="linkExibido">Nenhum link inserido</span></p>
+        
+        <!-- Novo conteúdo: texto e vídeo -->
+        <p><b>Tutorial em vídeo de como usar o site:</b></p>
+        <iframe src="https://www.youtube.com/embed/ilWojUN09_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     
     <p class="footer">Site criado por Jonathan Érich. Para sugestões e melhorias <a href="mailto:jonathan.erich@gran.com">jonathan.erich@gran.com</a></p>
